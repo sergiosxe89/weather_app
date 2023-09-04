@@ -1,0 +1,43 @@
+html, body {
+    height: 100%; /* Establece la altura al 100% de la ventana (viewport) */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-image: url('https://img.freepik.com/fotos-premium/cielo-azul-fondo-clima-nubes_261642-70.jpg'); /* Fondo de la página */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Fija el fondo en su lugar */
+  }
+  
+  .app {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+  }
+  
+  .weather-app {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Aplicar flexbox en dirección de columna */
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    color: black;
+  }
+  
+  .app-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .weather-info {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo semitransparente (ajusta el valor alfa según desees) */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: black;
+  }
