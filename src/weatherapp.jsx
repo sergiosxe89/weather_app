@@ -85,7 +85,7 @@ function WeatherApp() {
         <p>Obteniendo ubicación y datos del clima...</p>
       ) : (
         <div className="weather-info">
-          <p>País: {weatherData.name}</p>
+          <p>Ciudad: {weatherData.name}</p>
           <p>País: {weatherData.sys.country}</p>
           <p>Latitud: {latitude}</p>
           <p>Longitud: {longitude}</p>
