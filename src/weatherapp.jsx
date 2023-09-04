@@ -13,9 +13,9 @@ function WeatherApp() {
 
 
   const backgroundImages = {
-    sunny: './public/imagen_soleada.png',
-    rainy: './public/lluvia.png',
-    clouds: './public/nublado.png',
+    sunny: './public/imagen_soleada.jpg',
+    rainy: './public/lluvia.jpg',
+    clouds: './public/nublado.jpg',
   };
 
   const backgroundStyle = {
